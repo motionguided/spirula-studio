@@ -3,13 +3,14 @@
     <anvil-component type="Label" name="title_label" prop:role="h1" prop:text="Machine1"></anvil-component>
   </anvil-block>
   <anvil-block slot="actions">
-    <anvil-component type="Button" name="docs_button" prop:text="Documentation" event-bindings:click="docs_click"></anvil-component>
+    <anvil-component type="Button" name="docs_button" prop:text="Documentation"></anvil-component>
   </anvil-block>
   <anvil-block slot="content">
     <anvil-component type="ColumnPanel" name="hello_card" prop:role="card">
       <anvil-component type="Label" name="hello_kicker" prop:role="eyebrow" prop:text="Front door"></anvil-component>
       <anvil-component type="Label" name="hello_heading" prop:role="h1" prop:text="Hello"></anvil-component>
       <anvil-component type="Label" name="hello_body" prop:role="lede" prop:text="If you can read this card, the GitHub import worked. This is Machine1."></anvil-component>
+      <anvil-component type="TextBox" name="text_box_1" prop:text="Kendall here. It worked." container:grid_position="XSRDUS,DYOZTO"></anvil-component>
     </anvil-component>
   </anvil-block>
 </anvil-form>
