@@ -1,0 +1,12 @@
+allow_embedding: false
+name: CP:MT:Minimal
+package_name: CP_MT_Minimal
+runtime_options:
+  client_version: '3'
+  server_spec: {base: python314}
+  version: 3
+services:
+- client_config: {enable_v2: true}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup: {module: Machine1, type: form}

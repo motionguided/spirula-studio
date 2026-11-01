@@ -1,0 +1,11 @@
+<anvil-form layout="CP_MT_Minimal.Layouts.BaseLayout">
+  <anvil-block slot="title">
+    <anvil-component type="Label" name="heading" prop:role="h1" prop:text="Machines and YAML"></anvil-component>
+  </anvil-block>
+  <anvil-block slot="actions">
+    <anvil-component type="Button" name="contents_button" prop:text="Contents" event-bindings:click="contents_click"></anvil-component>
+  </anvil-block>
+  <anvil-block slot="content">
+    <anvil-component type="Label" name="body" prop:role="body" prop:text="An XML tag is an abstract machine. It names a thing and holds that thing's place in a larger assembly.&#10;&#10;YAML extends that tag. The tag names the machine. YAML declares more about it: what it is called, which machine starts, which services it uses. YAML is an extension of XML.&#10;&#10;Anvil's YAML is the visual language for that declaration. The editor draws the screen. The record underneath is YAML. In this theme the screen file itself is HTML, and anvil.yaml is the record of the app. The idea is the same either way. A screen is a machine.&#10;&#10;Machine1 is the first machine in this app. The package name stays CP_MT_Minimal, because these files began as that theme and the layout path depends on the name."></anvil-component>
+  </anvil-block>
+</anvil-form>

@@ -16,3 +16,7 @@ __pycache__/
 
 outputs/
 parity_refs/
+
+# Anvil app data, kept out of the C++ build.
+.anvil-data
+/.anvil/
