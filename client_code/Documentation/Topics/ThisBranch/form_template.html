@@ -1,11 +1,17 @@
-<anvil-form layout="CP_MT_Minimal.Layouts.BaseLayout">
+<anvil-form layout="CP_Darkroom.Layouts.BaseLayout">
   <anvil-block slot="title">
     <anvil-component type="Label" name="heading" prop:role="h1" prop:text="This branch"></anvil-component>
   </anvil-block>
   <anvil-block slot="actions">
-    <anvil-component type="Button" name="contents_button" prop:text="Contents" event-bindings:click="contents_click"></anvil-component>
+    <anvil-component type="Button" name="contents_button" prop:text="Contents"></anvil-component>
   </anvil-block>
   <anvil-block slot="content">
-    <anvil-component type="Label" name="body" prop:role="body" prop:text="This GitHub branch is cherrypod-studio, on the fork motionguided/spirula-studio. The rest of the repository is the C++ program. These Anvil files sit at the root so Anvil can clone the repository and open an app.&#10;&#10;Clone from GitHub checks out the default branch. This branch is that default. master stays the author's line and does not contain this app.&#10;&#10;The Spirula README was left as the author wrote it. The ignore file kept the author's rules, and gained two Anvil lines: .anvil-data and /.anvil/.&#10;&#10;The hello card on Machine1 is the proof that the import opened this branch."></anvil-component>
+    <anvil-component type="Label" name="body" prop:role="body" prop:text="This GitHub branch is cherrypod-studio, on the fork motionguided/spirula-studio. The rest of the repository is the C++ program. These Anvil files sit at the root so Anvil can clone the repository and open an app.
+
+Clone from GitHub checks out the default branch. This branch is that default. master stays the author's line and does not contain this app.
+
+The Spirula README was left as the author wrote it. The ignore file kept the author's rules, and gained two Anvil lines: .anvil-data and /.anvil/.
+
+The hello card on Machine1 is the proof that the import opened this branch."></anvil-component>
   </anvil-block>
 </anvil-form>

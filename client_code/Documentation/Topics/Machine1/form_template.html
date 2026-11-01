@@ -1,11 +1,15 @@
-<anvil-form layout="CP_MT_Minimal.Layouts.BaseLayout">
+<anvil-form layout="CP_Darkroom.Layouts.BaseLayout">
   <anvil-block slot="title">
     <anvil-component type="Label" name="heading" prop:role="h1" prop:text="Machine1"></anvil-component>
   </anvil-block>
   <anvil-block slot="actions">
-    <anvil-component type="Button" name="contents_button" prop:text="Contents" event-bindings:click="contents_click"></anvil-component>
+    <anvil-component type="Button" name="contents_button" prop:text="Contents"></anvil-component>
   </anvil-block>
   <anvil-block slot="content">
-    <anvil-component type="Label" name="body" prop:role="body" prop:text="Machine1 is the startup form. It replaced Form1.&#10;&#10;Its job for this test is one card. The card says hello. If that card is on screen after a GitHub import, Anvil loaded this branch.&#10;&#10;Documentation is the handbook. It is a package at client_code/Documentation, the same shape as the other Anvil apps: a contents page, and a topic for each idea."></anvil-component>
+    <anvil-component type="Label" name="body" prop:role="body" prop:text="Machine1 is the startup form. It replaced Form1.
+
+Its job for this test is one card. The card says hello. If that card is on screen after a GitHub import, Anvil loaded this branch.
+
+Documentation is the handbook. It is a package at client_code/Documentation, the same shape as the other Anvil apps: a contents page, and a topic for each idea."></anvil-component>
   </anvil-block>
 </anvil-form>

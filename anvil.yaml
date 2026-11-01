@@ -1,6 +1,6 @@
 allow_embedding: false
 name: CP:MT:Minimal
-package_name: CP_MT_Minimal
+package_name: CP_Darkroom
 runtime_options:
   client_version: '3'
   server_spec: {base: python314}
